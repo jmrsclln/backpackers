@@ -1,0 +1,109 @@
+body{
+  background-image: url(bg2.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: 100%;
+}
+
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+li img{
+  width: 19%;
+  height: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:lucida Console; 
+}
+
+li a:hover {
+  border:solid;
+    border-color:#ff8800;
+  background-color: black;
+}
+li a:active {
+  color: Black;
+  background-color:white;
+  font-weight: bolder;
+}
+
+
+div:{
+  align-items:right;  
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+div.gallery {
+  
+  border:transparent;
+  margin-left: 35%;
+  width: 180px;
+  margin-bottom: 10%;
+  padding-right: 20%;
+
+}
+
+div.gallery:hover {
+  border: 1px solid transparent;
+}
+
+div.gallery img {
+  width: 250%;
+  height: auto;
+  align:center;
+}
+
+div.desc {
+  background-color:blur;
+  padding: 10px;
+  width:450px; 
+  text-align: center;
+  font-family:lucida Console;
+}

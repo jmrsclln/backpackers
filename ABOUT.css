@@ -1,0 +1,179 @@
+body{
+  background-image: url(bg2.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: 100%;
+}
+
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+li img{
+  width: 19%;
+  height: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:lucida Console; 
+}
+
+li a:hover {
+  border:solid;
+    border-color:#ff8800;
+  background-color: black;
+}
+li a:active {
+  color: Black;
+  background-color:white;
+  font-weight: bolder;
+}
+
+
+div:{
+  align-items:right;  
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  font-family:lucida Console; 
+  display: block;
+  text-decoration: none;
+}
+.menu a {
+  background-color:inherit;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:white;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:none;
+  background-size: 100%;
+  float:left;
+  width:20%;
+  text-align:center;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #333; 
+  color: black; 
+  border: 2px solid inherit;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid inherit;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid inherit;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid inherit;
+}
+
+.button4:hover {
+  background-color: orange;
+  color: white;
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid inherit;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.button6 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid inherit;
+}
+
+.button6:hover {
+  background-color: indigo;
+  color: white;
+}
+
